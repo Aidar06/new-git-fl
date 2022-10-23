@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+
+@mixin align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin btn{
+  padding: 10px 30px;
+  background: red;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover{
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+  }
+  .btn-icon{
+    padding-left: 10px;
+  }
+}
