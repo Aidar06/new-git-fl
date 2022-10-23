@@ -120,22 +120,61 @@
       }
     }
   }
+  #master .master--no__so--got {
+    align-items: flex-start;
+    block__var {
+      width: 58%;
+    }
+      #master .master--no__so {
+        width: 63%;
+      }
+    #webinars .webinars--block {
+      justify-content: center;}
+    #reviews .reviews {
+      justify-content: center;}
 
-
+    #contact .contact--block {
+      width: 52%;
+    }
 }
+
 
 @media (max-width: 450px) {
+  #webinars .webinars--block__var {
+    width: 75%}
+
+  element.style {
+    width: 421.882p}
+  #master .master--no__so {
+    width: 91%;}
+  #reviews .reviews--block {
+    width: 93%;}
+  #contact .contact--block {
+    width: 59%;}
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 402px) {
 
+  element.style {
+    width: 379.412px;}
+  #webinars .webinars--block__var {
+    width: 100%;}
+
+  #hero .hero img {
+    top: 130px;
+    width: 80%;
+  }
 }
 
 @media (max-width: 375px) {
 
+  element.style {
+    width: 368.471px;
 }
 
 @media (max-width: 320px) {
 
+  element.style {
+    width: 354.059px;}
 }
