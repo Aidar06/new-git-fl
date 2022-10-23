@@ -1,3 +1,100 @@
-
+@media (max-width: 1200px) {
+  #master .master--no__so {
+    width: 27%;
+  }
+  #choice .choice--group {
+    width: 55%;
+  }
+}
+@media (max-width: 1024px) {
+  #reviews .reviews--block {
+    width: 33%;
+  }
+  #contact .contact--block {
+    width: 23%;
+  }
+}
+@media (max-width: 992px) {
+  #contact .contact--block {
+    width: 25%;
+  }
+}
+@media (max-width: 768px) {
+  #hero {
+    padding-bottom: 100px;
+  }
+  #hero .hero {
+    justify-content: center;
+  }
+  #hero .hero--block {
+    z-index: 1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(2px);
+  }
+  #hero .hero img {
+    position: absolute;
+    top: 80px;
+  }
+  #courses .courses--block__swiper button {
+    margin-top: 23px;
+  }
+  #webinars .webinars--block__var {
+    width: 48%;
+    height: 500px;
+    flex-wrap: wrap-reverse;
+  }
+  #webinars .webinars--block__var button {
+    margin-top: 20px;
+  }
+  #master .master--no {
+    flex-wrap: wrap;
+  }
+  #master .master--no__so {
+    width: 40%;
+    margin-top: 20px;
+  }
+  #choice .choice {
+    flex-direction: column;
+    align-items: start;
+  }
+  #choice .choice--group {
+    width: 90%;
+    margin-top: 20px;
+  }
+  #reviews .reviews {
+    flex-wrap: wrap;
+  }
+  #reviews .reviews--block {
+    width: 47%;
+    margin: 40px 10px 0;
+  }
+  #contact .contact {
+    flex-wrap: wrap;
+  }
+  #contact .contact img {
+    margin-right: 80%;
+  }
+  #contact .contact--block {
+    width: 30%;
+    margin-top: 20px;
+  }
+  #footer {
+    padding: 0 0;
+  }
+}
+@media (max-width: 576px) {
+  #header .navbar--nav {
+    display: none;
+  }
+  #header .navbar--len {
+    display: none;
+  }
+  #header .navbar .open-close-menu {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
